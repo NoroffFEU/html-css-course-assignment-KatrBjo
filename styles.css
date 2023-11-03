@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #501FAE 34.9%, #E5D7CE 67.19%);
+    color: #fff;
+    width: 100%;
+    height: 1024px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+nav {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+img {
+    width: 70px;
+    align-items: center;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #393F58;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    color: #FF6847;
+    transition: .5s;
+}
+
+.checkbutton,
+.cart-button {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+.checkbutton {
+    float: left;
+    margin-left: 40px;
+}
+
+.cart-button {
+    float: right;
+    margin-right: 40px;
+}
+
+#check {
+    display: none;
+    z-index: 2;
+}
+
+.background {
+    background-image: url(/img/gamer-station.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+.left-section,
+.right-section {
+    flex: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.left-section {
+    background-color: #33333368;
+}
+
+
+p {
+    padding: 0px 100px;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+
+button:nth-child(1) {
+    background-color: #ff6847;
+    color: #fff;
+}
+
+button:nth-child(2) {
+    background-color: #393F58;
+    color: #fff;
+}
+
+button:nth-child(3) {
+    background-color: #979797;
+    color: #fff;
+}
+
+footer {
+    position: fixed;
+    background-color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-columns {
+    flex: 3;
+    display: flex;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-column h4 {
+    color: #333;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-column a:hover {
+    color: #FF6847;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    color: #555;
+}
+
+@media (max-width: 1952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+.checkbutton,
+.cart-button {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+.checkbutton {
+    float: left;
+    padding-right: 50px;
+}
+
+.cart-button {
+    float: right;
+}
+
+@media (max-width: 858px) {
+    label.logo {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .checkbutton,
+    .cart-button {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #D9C9BD;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #FF6847;
+    }
+
+    #check:checked ~ ul,
+    #cart-check:checked ~ ul {
+        left: 0;
+    }
+}
+
+section {
+    background-image: url(/img/gamer-station.jpg);
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+       
