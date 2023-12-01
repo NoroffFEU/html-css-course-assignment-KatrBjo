@@ -1,15 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Example Title, replace me!</title>
-  <link rel="stylesheet" href="src/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>GameHub</title>
 </head>
-<body class="centered">
-  <div>
-    <img src="/assets/images/noroff-logo.png" alt="Noroff Logo">
-    <h1>Hello World!</h1>
-  </div>
+ 
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbutton">
+            <span class="material-symbols-outlined">
+                menu
+                </span> 
+        </label>
+        <label class="logo"><img src="/img/GameHub_Logo.png" alt="GameHub Logo"></label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.htm">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="games.html">All Games</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+        </ul>
+
+        <label for="cart-check" class="cart-button"><a href="cart.html"><span class="material-symbols-outlined">
+            shopping_bag
+        </a></span></label>
+
+    </nav>
+        <div class="background">
+            <div class="left-section">
+              <h2>Welcome to Game Hub...</h2>
+              <p>Whether you're looking to discover new adventures or find a new home for your pre-loved titles, Game Hub is where gamers unite for the love of gaming. We like to call it The Universe of Games</p>
+            </div>
+            <div class="right-section">
+              <div class="gallery">
+                <a href="games.html"></a><img src="img/GameHub_covers4.jpg" alt="Game 1"></a>
+                <a href="games.html"></a><img src="img/GameHub_covers9.jpg" alt="Game 2"></a>
+                <a href="games.html"></a><img src="img/GameHub_covers6.jpg" alt="Game 3"></a>
+              </div>
+              <div class="buttons">
+                <button>Browse Games</button>
+                <button>Post Used Games</button>
+                <button>GameHub App</button>
+              </div>
+            </div>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-logo">
+
+                        <img src="/img/GameHub_Logo.png" alt="Logo">
+                    </div>
+                    <div class="footer-columns">
+                        <div class="footer-column">
+                            <h4>GameHub</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="app.html">GameHub app</a></li>
+                                <li><a href="#">All games</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="contact.html">Contact us</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Legal</h4>
+                            <ul>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2023 GameHub
+                </div>
+            </footer>
 </body>
 </html>
