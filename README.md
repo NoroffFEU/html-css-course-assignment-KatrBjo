@@ -1,53 +1,96 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12705796&assignment_repo_type=AssignmentRepo)
-# HTML & CSS Course Assignment + Cross Course Project
-
-## Description
-
-GameHub
+# GameHub
 
 Welcome to GameHub, the ultimate eCommerce platform for gamers! Whether you're looking to buy new, used, or online games, GameHub offers a seamless and engaging shopping experience. This README will guide you through the project's features, installation, and usage.
 
-Features
+## Features
 
-Comprehensive Game Catalog: Browse a wide range of new and used games, as well as online game subscriptions.
-User-Friendly Design: Attractive and intuitive design tailored for gamers.
-Community Focused: Connect with other gamers and find great deals.
-Advanced Basket Functionality:
-View items in your basket
-Add or remove items easily
-Adjust item quantities
-Automatic total cost calculation
-Detailed Game Pages: Each game has its own presentation page with multiple purchase options.
+- **Comprehensive Game Catalog**: Browse a wide range of new and used games, as well as online game subscriptions.
+- **User-Friendly Design**: Attractive and intuitive design tailored for gamers.
+- **Community Focused**: Connect with other gamers and find great deals.
+- **Advanced Basket Functionality**:
+  - View items in your basket
+  - Add or remove items easily
+  - Adjust item quantities
+  - Automatic total cost calculation
+- **Detailed Game Pages**: Each game has its own presentation page with multiple purchase options.
 
+## Installation
 
-## Brief
+To set up GameHub on your local machine, follow these steps:
 
-You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/gamehub.git
+   ```
+   
+2. **Navigate to the Project Directory**
+   ```bash
+   cd gamehub
+   ```
 
-The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
+3. **Install Dependencies**
+   Ensure you have Node.js and npm installed, then run:
+   ```bash
+   npm install
+   ```
 
-- The HTML should be semantic and neat.
-- The CSS should follow the DRY principle and be easy to read.
-- The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-- The site should be WCAG compliant, and accessibility should be taken into account.
-- Each page should have a unique <meta name="description">, <title>, and <h1>.
-- You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+4. **Run the Development Server**
+   ```bash
+   npm start
+   ```
 
-## Process
+5. **Open GameHub in Your Browser**
+   Navigate to `http://localhost:3000` to see GameHub in action.
 
-1. Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
-2. Write your HTML and CSS, ensuring your HTML is semantic and bug-free and your CSS follows DRY principles.
-3. Use media queries, flex or grid to make your website responsive across screen sizes.
-4. Test your website using your developer tools and also test on major browsers and various devices.
-5. Validate your code using the Markup Validation Service
-6. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
-7. When your site is ready, post it on the Teams peer review channel.
-8. Look at the work of your peers and write a review for them.
-9. Make adjustments based on the feedback you gather from peers and teachers.
-10. Submit here on Teams.
+## Usage
 
-## Delivery
+### Browsing the Catalog
 
-- Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
-- Please include a link to your public GitHub repo containing your code in your submission.
-- There is no reflection for this CA.
+- Use the navigation bar to explore different categories.
+- Search for specific games using the search bar.
+
+### Managing Your Basket
+
+- Add items to your basket from the game detail pages.
+- View your basket by clicking the basket icon in the top right corner.
+- Adjust quantities or remove items as needed.
+- The total cost will be updated automatically.
+
+### Game Detail Pages
+
+- Each game has a dedicated page with detailed information.
+- Choose from multiple purchase options, including new, used, or online subscriptions.
+
+## Contributing
+
+We welcome contributions from the community! To contribute to GameHub, please follow these steps:
+
+1. **Fork the Repository**
+2. **Create a New Branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Your Changes**
+4. **Commit Your Changes**
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Create a Pull Request**
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, feel free to reach out to us at support@gamehub.com.
+
+Happy Gaming!
+
+---
+
+Enjoy using GameHub and connecting with fellow gamers! If you have any suggestions or run into any issues, don't hesitate to get in touch.
