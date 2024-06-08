@@ -1,5 +1,24 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12705796&assignment_repo_type=AssignmentRepo)
-# HTML & CSS Course Assignment
+# HTML & CSS Course Assignment + Cross Course Project
+
+## Description
+
+#GameHub
+
+Welcome to GameHub, the ultimate eCommerce platform for gamers! Whether you're looking to buy new, used, or online games, GameHub offers a seamless and engaging shopping experience. This README will guide you through the project's features, installation, and usage.
+
+##Features
+
+Comprehensive Game Catalog: Browse a wide range of new and used games, as well as online game subscriptions.
+User-Friendly Design: Attractive and intuitive design tailored for gamers.
+Community Focused: Connect with other gamers and find great deals.
+Advanced Basket Functionality:
+View items in your basket
+Add or remove items easily
+Adjust item quantities
+Automatic total cost calculation
+Detailed Game Pages: Each game has its own presentation page with multiple purchase options.
+
 
 ## Brief
 
