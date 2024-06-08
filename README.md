@@ -3,11 +3,11 @@
 
 ## Description
 
-#GameHub
+GameHub
 
 Welcome to GameHub, the ultimate eCommerce platform for gamers! Whether you're looking to buy new, used, or online games, GameHub offers a seamless and engaging shopping experience. This README will guide you through the project's features, installation, and usage.
 
-##Features
+Features
 
 Comprehensive Game Catalog: Browse a wide range of new and used games, as well as online game subscriptions.
 User-Friendly Design: Attractive and intuitive design tailored for gamers.
